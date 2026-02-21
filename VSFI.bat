@@ -4,4 +4,4 @@
 ::   by Artus Poulain
 ::   Double-cliquer pour lancer !
 :: ============================================
-powershell.exe -ExecutionPolicy Bypass -NoProfile -STA -File "%~dp0VSFI.ps1"
+%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -STA -File "%~dp0VSFI.ps1"
